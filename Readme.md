@@ -56,3 +56,10 @@
 
 Accuracy = 0.8169491525423729
 '''
+
+
+
+### Reference URL
+"""
+https://medium.com/analytics-vidhya/your-guide-for-logistic-regression-with-titanic-dataset-784943523994
+"""
