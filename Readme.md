@@ -76,6 +76,30 @@
 - Accuracy - 0.8101694915254237
 
 
+### Model 1.2 - Naive Bayes
+
+#### Result
+    - GaussianNB
+        - [[ 10 170]
+        - [  2 113]]
+        - Accuracy -  0.41694915254237286
+    - BernoulliNB
+        - [[149  31]
+        - [ 25  90]]
+        - Accuracy -  0.8101694915254237
+    - MultinomialNB
+        - [[156  24]
+        - [ 34  81]]
+        - Accuracy -  0.8033898305084746
+    - CategoricalNB
+        - [[149  31]
+        - [ 25  90]]
+        - Accuracy -  0.8101694915254237
+    - ComplementNB
+        - [[150  30]
+        - [ 29  86]]
+        - Accuracy -  0.8
+
 ### Reference URL
     - https://medium.com/analytics-vidhya/your-guide-for-logistic-regression-with-titanic-dataset-784943523994
 
