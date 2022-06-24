@@ -50,16 +50,24 @@
     - Checking Confusion Matrix and Accuracy
 
 #### Result
-'''
-    [[158  20]
-    [ 34  83]]
+    - [[158  20]
+    - [ 34  83]]
+    - Accuracy = 0.8169491525423729
 
-Accuracy = 0.8169491525423729
-'''
+#### SHAP explainer
+1. Being Upper/Lower Female --> positive/negative 
+2. Being Female/Male --> positive/negative
+3. Having/Not having <=1 sibling/spouce -->  positive/negative
+4. Being/Not being Young/Adult --> negative/positive
+5. Being low class --> positive (no negative relation)
+6. etc
 
+
+### Model 1.1 - Decission Trees and Random Forests
 
 
 ### Reference URL
-"""
-https://medium.com/analytics-vidhya/your-guide-for-logistic-regression-with-titanic-dataset-784943523994
-"""
+    - https://medium.com/analytics-vidhya/your-guide-for-logistic-regression-with-titanic-dataset-784943523994
+
+### Issues
+1. the dummy variable are not strictly independent --> using naiive bayes can be an issue [because of underlying independence assumption]

@@ -5,3 +5,6 @@ seaborn
 ipython
 ipykernel
 kaggle
+shap
+tqdm
+graphviz
