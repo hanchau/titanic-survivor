@@ -50,9 +50,9 @@
     - Checking Confusion Matrix and Accuracy
 
 #### Result
-    - [[158  20]
-    - [ 34  83]]
-    - Accuracy = 0.8169491525423729
+- [[158  20]
+- [ 34  83]]
+- Accuracy = 0.8169491525423729
 
 #### SHAP explainer
 1. Being Upper/Lower Female --> positive/negative 
@@ -64,6 +64,16 @@
 
 
 ### Model 1.1 - Decission Trees and Random Forests
+
+#### Clearning
+    - Same as that of Logistic Regressino
+    - Same dummies are used
+    - Pclass is broken into dummies (not in Model 1.0)
+
+#### Result
+- [[143  28]
+- [ 28  96]]
+- Accuracy - 0.8101694915254237
 
 
 ### Reference URL
